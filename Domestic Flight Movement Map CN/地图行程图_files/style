@@ -1,0 +1,166 @@
+*,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    background: #f7f7f7;
+	background: url(../img/bg.jpg) no-repeat;
+	width: 100%;
+    color: #000;
+    font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
+	height: 100%;
+	background-size: 100% 100%;
+    line-height: 1;
+	overflow: hidden;
+}
+
+.select select:focus,
+.stepper .btn,
+.stepper input,
+a,
+a:active,
+a:hover,
+button:focus,
+input.input-weak:focus {
+    outline: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    color: inherit;
+    font: inherit;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+li,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: dotted thin;
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px;
+}
+
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+    color: #323232;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+}
+
+select,
+textarea {
+    -webkit-appearance: none;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+}
+
+img {
+    vertical-align: top;
+    margin-top: -1px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+textarea,
+input {
+    -webkit-appearance: none;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: #222 !important;
+    transition: background-color 5000s ease-in-out 0s;
+    caret-color: #222;
+}
+
+input:focus {
+    outline: none;
+}
+nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-sizing: border-box;
+    height: 1.05rem;
+    line-height: 1.05rem;
+    background: linear-gradient(#fbfbfb,#f1f1f1);
+    border-bottom: 1px solid #ddd;
+    font-size: .34rem;
+    /* box-shadow: 0 1px 5px #d5d9d8; */
+    z-index: 20;
+	text-align: center;
+}
+.more-ico {
+    position: absolute;
+    left: 0;
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+}
+.more-ico:after {
+    position: absolute;
+    top: .5rem;
+    left: .35rem;
+    display: block;
+    width: .6em;
+    height: .6em;
+    border-bottom: .03rem solid #555;
+    border-left: .03rem solid #555;
+    content: "";
+    -webkit-transform: translateY(-50%) scaleY(1.2) rotate(45deg);
+    -moz-transform: translateY(-50%) scaleY(.7) rotate(45deg);
+    -ms-transform: translateY(-50%) scaleY(.7) rotate(45deg);
+}
+@media screen and (min-width:700px) {
+	html{
+		font-size: 70px!important;
+	}
+}
